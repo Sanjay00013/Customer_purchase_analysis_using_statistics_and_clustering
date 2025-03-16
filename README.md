@@ -1,72 +1,107 @@
-Customer Purchase Behavior Analysis using Descriptive Statistics
-Problem Statement
-🔍 Problem Statement:
+# 🛒 Customer Purchase Behavior Analysis using Descriptive Statistics
 
-Welcome to the Probability and Statistics project! 📊🔍 In this exciting journey, you'll get the chance to apply the concepts you've learned in probability theory and statistics to analyze a real-world dataset. This project is your opportunity to dive deep into the world of data analysis and gain practical experience with the tools and techniques you've been learning. 🚀
+## 📌 Problem Statement
+I worked on the **Probability and Statistics Project!** 📊🔍 This project provided an opportunity to apply probability theory and statistical concepts to analyze a real-world dataset. By exploring customer purchase behavior, I extracted meaningful insights to optimize marketing strategies.
 
-🎯 Objective:
+## 🎯 Objective
+The goal of this project was to analyze customer information and purchasing behavior to:
+- Identify patterns, trends, and correlations.
+- Understand customer demographics and their impact on spending habits.
+- Segment customers based on their behaviors.
+- Optimize marketing efforts and increase offer acceptance rates.
 
-Your mission is to analyze the provided dataset containing customer information and purchasing behavior to make informed decisions. Your goal is to identify patterns, trends, and correlations that will help your company optimize its marketing efforts and increase offer acceptance rates. 🎉
+## 📚 About the Dataset
+The dataset was gathered during last year's campaign and contained the following key attributes:
 
-About the Dataset
-Here's the link to the dataset
+- **Response (Target)**: `1` if the customer accepted the offer, `0` otherwise.
+- **ID**: Unique identifier for each customer.
+- **Year_Birth**: Year of birth (used to calculate age).
+- **Complain**: `1` if the customer complained in the last 2 years.
+- **Dt_Customer**: Date of customer enrollment.
+- **Education**: Customer's level of education.
+- **Marital**: Marital status.
+- **Kidhome**: Number of small children in the household.
+- **Teenhome**: Number of teenagers in the household.
+- **Income**: Yearly household income.
+- **MntFishProducts**: Amount spent on fish products in the last 2 years.
+- **MntMeatProducts**: Amount spent on meat products.
+- **MntFruits**: Amount spent on fruits.
+- **MntSweetProducts**: Amount spent on sweet products.
+- **MntWines**: Amount spent on wine.
+- **MntGoldProds**: Amount spent on gold products.
+- **NumDealsPurchases**: Number of purchases made with a discount.
+- **NumCatalogPurchases**: Purchases made via catalog.
+- **NumStorePurchases**: Purchases made in physical stores.
+- **NumWebPurchases**: Purchases made online.
+- **NumWebVisitsMonth**: Visits to the company's website in the last month.
+- **Recency**: Number of days since the last purchase.
 
-This data was gathered during last year's campaign. Data description is as follows;
+## 📌 Task 1 - Data Cleaning & Preprocessing
+I handled missing values appropriately through imputation, removal, or analysis-based adjustments. I ensured consistency in data types for each attribute and summarized statistics such as mean, median, variance, and standard deviation.
 
-Response (target) - 1 if customer accepted the offer in the last campaign, 0 otherwise
-ID - Unique ID of each customer
-Year_Birth - Age of the customer
-Complain - 1 if the customer complained in the last 2 years
-Dt_Customer - date of customer's enrollment with the company
-Education - customer's level of education
-Marital - customer's marital status
-Kidhome - number of small children in customer's household
-Teenhome - number of teenagers in customer's household
-Income - customer's yearly household income
-MntFishProducts - the amount spent on fish products in the last 2 years
-MntMeatProducts - the amount spent on meat products in the last 2 years
-MntFruits - the amount spent on fruits products in the last 2 years
-MntSweetProducts - amount spent on sweet products in the last 2 years
-MntWines - the amount spent on wine products in the last 2 years
-MntGoldProds - the amount spent on gold products in the last 2 years
-NumDealsPurchases - number of purchases made with discount
-NumCatalogPurchases - number of purchases made using catalog (buying goods to be shipped through the mail)
-NumStorePurchases - number of purchases made directly in stores
-NumWebPurchases - number of purchases made through the company's website
-NumWebVisitsMonth - number of visits to company's website in the last month
-Recency - number of days since the last purchase
-Task 1 - Basic CleanUp
-Clean and preprocess the dataset (handling missing values, data types, etc.).
+**Deliverables:**
+- Cleaned and preprocessed dataset.
+- Detailed report on handling missing values and data inconsistencies.
+- Summary statistics of numerical variables.
 
-Analyze the distribution of customer demographics (age, education, marital status) using descriptive statistics and visualizations.
+## 📊 Task 2 - Descriptive Statistics
+I computed **measures of central tendency** (mean, median, mode) and **measures of dispersion** (variance, standard deviation). I also identified and handled outliers.
 
-Deliverables:
+**Deliverables:**
+- Statistical analysis showcasing customer demographics.
+- Insights into variations and potential outliers.
 
-Cleaned and Preprocessed Dataset:
+## 🎂 Task 3 - Probability Distributions
+I identified key variables that followed probability distributions such as **Binomial, Normal, or Poisson**. I also calculated probabilities and expected values for relevant attributes.
 
-Provide a detailed report on the steps taken to handle missing values, including imputation methods used if applicable. Document the process of ensuring consistent data types for each variable, addressing any inconsistencies.
+**Deliverables:**
+- Analysis of suitable probability distributions.
+- Probability calculations and expected value assessments.
 
-Summary of Basic Statistics:
+## 📈 Task 4 - Customer Segmentation & Insights
+I explored relationships between **customer demographics and spending patterns**. I segmented customers based on behaviors (e.g., high spenders, discount buyers, online shoppers) and implemented **Machine Learning-based Clustering** to group customers based on their buying patterns.
 
-Present calculated statistics such as mean, median, variance, and standard deviation for each relevant numerical variable. Include a concise table or summary showcasing these measures for easy reference.
+**Deliverables:**
+- Segmentation of customers into meaningful groups.
+- Key findings related to purchasing trends.
 
-Task 2 - Descriptive Statistics 📊
-Calculate measures of central tendency (mean, median, mode) and measures of dispersion (variance, standard deviation) for key variables. Identify and handle outliers if necessary.
-Deliverables:
+## 🏆 Task 5 - Conclusion & Recommendations
+I created **visualizations** that highlighted key insights and provided actionable recommendations to improve marketing and sales strategies.
 
-Descriptive statistics that reveal the central tendencies, variations, and potential outliers in the dataset.:
-Task 3 - Probability Distributions 🎲
-Identify variables that could follow specific probability distributions (e.g., Binomial, Normal). Calculate probabilities and expected values based on these distributions.
-Deliverables:
+**Deliverables:**
+- Well-designed visualizations showcasing customer behaviors.
+- Strategic recommendations for the company.
 
-Determination of suitable probability distributions for relevant variables and corresponding calculated probabilities and expected values.:
-Task 4: Insights and Customer Segmentation 📈
-Explore relationships between customer characteristics and spending habits. Segment customers based on their behaviors and characteristics.
-Deliverables:
+---
 
-Key insights regarding relationships between variables and distinct customer segments based on behaviors.
-Task 5: Conclusion and Recommendations
-Create clear visualizations to showcase your findings. Use insights to make recommendations for the company based on your analysis.
-Deliverables:
+## 🔧 Tools & Technologies Used
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scipy, Statsmodels, Scikit-learn)
+- **Jupyter Notebook**
+- **Data Cleaning & Preprocessing Techniques**
+- **Statistical Analysis & Probability Modeling**
+- **Visualization & Segmentation Methods**
+- **Machine Learning for Customer Clustering**
 
-Well-designed visualizations that visually represent your insights and actionable recommendations based on customer behavior analysis
+## 📚 Key Takeaways
+- **Customer demographics** influenced purchase behaviors significantly.
+- **Discount purchases** impacted overall spending patterns.
+- **Online vs. in-store purchases** showed varying trends in product preferences.
+- **Higher-income customers** exhibited different buying behaviors compared to lower-income segments.
+- **Customer Clustering** helped in identifying distinct purchasing groups for targeted marketing strategies.
+
+---
+
+## 🌟 Project Screenshots
+Here are some screenshots from the project showcasing key insights, visualizations, and customer segmentation:
+
+_(Insert images here)_
+
+---
+
+## 📢 Author Details
+📝 **[Your Name]**  
+📧 Email: [your.email@example.com](mailto:your.email@example.com)  
+🔗 LinkedIn: [Your LinkedIn Profile](#)  
+
+🎨 *This document was crafted with a focus on aesthetics, readability, and structured insights! 🚀*
+
