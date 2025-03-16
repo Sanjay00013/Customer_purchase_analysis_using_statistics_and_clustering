@@ -92,16 +92,14 @@ I created **visualizations** that highlighted key insights and provided actionab
 ---
 
 ## 🌟 Project Screenshots
-Here are some screenshots from the project showcasing key insights, visualizations, and customer segmentation:
+Here are some screenshots from the project 
+![image](https://github.com/user-attachments/assets/2bde91d5-dd77-4351-aa06-9f7b5992f3a8)
 
-_(Insert images here)_
 
 ---
 
 ## 📢 Author Details
-📝 **[Your Name]**  
-📧 Email: [your.email@example.com](mailto:your.email@example.com)  
-🔗 LinkedIn: [Your LinkedIn Profile](#)  
-
-🎨 *This document was crafted with a focus on aesthetics, readability, and structured insights! 🚀*
+📝 **[Sanjay Ishwar Dalawai]**  
+📧 Email: [sanjaydalawai108@gmail.com]  
+🔗 LinkedIn: [https://www.linkedin.com/in/sanjay-dalawai-460a20216/]
 
